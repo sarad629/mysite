@@ -1,0 +1,58 @@
+#title {
+    font-size:30px;
+    background-color:#607D8B;
+    border-radius:10px;
+    padding:5px;
+    width:fit-content;
+    margin-top:20px;
+    border: 2px solid #36464d;
+ }
+  
+ body {
+    font-family: 'Raleway', sans-serif;
+    background-color:#455A64;
+    color:white;
+ }
+  
+ header {
+    font-size:18px;
+    margin-top:5px;
+    margin-bottom:10px;
+    color:white;
+ }
+  
+ hr {
+    background-color:#36464d;;
+    height:1px;
+    border:none;
+ }
+  
+ .container {
+    margin-left:30px;
+ }
+  
+ .text-container {
+    font-size:18px;
+    background-color:#607D8B;
+    border-radius:10px;
+    padding:5px;
+    width:fit-content;
+    margin-top:20px;
+    border: 2px solid #36464d;
+    text-align:center;
+    margin-right:30px;
+ }
+  
+ p {
+    font-size:18px;
+    text-decoration:none;
+ }
+  
+ #footer {
+    font-size:10px;
+    text-align:justify;
+ }
+ 
+ .days-container {
+   color:white;
+ }
