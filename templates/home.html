@@ -2,14 +2,31 @@
 {% set page_title="Home" %}
 
 {% block heading %}
-<h1>Home</h1>
+<h1 class="title" id="title">Home</h1>
 
 
 {% endblock %}
 
 {% block content %}
-<!--
-<div class="days-container"></div>
--->
+
+<div class="card-container">
+
+    <a href="{{url_for('nipmuc')}}">
+        <div class="card cards" style="width: 18rem;">
+        <img src="{{url_for('static', filename='nipmuc.png')}}" class="card-img-top">
+      </div>
+    </a>
+
+      <a href="{{url_for('narra')}}">
+        <div class="card cards" style="width: 18rem;">
+        <img src="{{url_for('static', filename='narragansett.png')}}" class="card-img-top">
+      </div>
+    </a>
+
+
+</div>
+
+<p id="special">Click to learn more!</p>
+
 
 {% endblock %}

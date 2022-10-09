@@ -1,20 +1,26 @@
-#title {
+.title {
     font-size:30px;
     border-radius:10px;
     padding:5px;
     width:fit-content;
- }
+}
 
+#title {
+   text-align:center;
+   margin:auto;
+   margin-top:20px;
+}
  body {
    font-family: 'Raleway', sans-serif;
-   background-color:#455A64;
+   background-color:#607D8B;
    color:white;
+   margin:20px;
 }
 
 .top-header {
    font-size: 46px;
    font-weight: bold;
-   border-bottom: 2px #adadad solid;
+   border-bottom: 2px #BDBDBD solid;
  }
 
 .top-header {
@@ -33,27 +39,48 @@ a {
 }
 
 a:hoover {
-   text-decoration:underline;
+   text-decoration:none;
+   color:gray;
 }
-
- .text-container {
-    font-size:18px;
-    background-color:#607D8B;
-    border-radius:10px;
-    padding:5px;
-    width:fit-content;
-    margin-top:20px;
-    border: 2px solid #36464d;
-    text-align:center;
-    margin-right:30px;
- }
   
  p {
     font-size:18px;
     text-decoration:none;
  }
-  
- #footer {
-    font-size:10px;
+ 
+nav {
+   margin-top:20px;
+   display:block;
+   justify-content: space-between;
+}
+
+.card-container {
+   display:flex;
+   justify-content: space-evenly;
+   margin-top:50px;
+   color:black;
+   text-align:center;
+}
+
+.cards {
+   border: 5px solid #BDBDBD;
+}
+
+.cards:hover{
+   border: 5px solid #009688;
+}
+
+#text-container {
+   width: 800px;
+   border-radius: 20px;
+   background-color: #455A64;
+   padding: 20px;
+   margin:auto;
+   margin-top:50px;
  }
  
+ #special {
+   margin:auto;
+   text-align:center;
+   margin-top:20px;
+ }
